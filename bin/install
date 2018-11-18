@@ -1,0 +1,9 @@
+#!/bin/sh
+
+ 
+[ -f  ~/.profile -o -L ~/.profile ] && rm ~/.profile
+[ -f  ~/.mkshrc -o -L ~/.mkshrc ] && rm ~/.mkshrc
+
+ln -s ~/.config/mksh-dot-files/mkshprofile ~/.profile
+ln -s ~/.config/mksh-dot-files/mkshrc ~/.mkshrc
+

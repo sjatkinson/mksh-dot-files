@@ -1,0 +1,4 @@
+echo .mkshrc
+export PATH=~/bin:$PATH
+export PS1='[$USER@$HOSTNAME]:$PWD
+$ '
